@@ -425,20 +425,17 @@
                     if (_this.auth2.isSignedIn.get()) {
                         /** @type {?} */
                         var user = new SocialUser();
-                        /** @type {?} */
-                        var profile = _this.auth2.currentUser.get().getBasicProfile();
-                        /** @type {?} */
-                        var token = _this.auth2.currentUser.get().getAuthResponse(true).access_token;
-                        /** @type {?} */
-                        var backendToken = _this.auth2.currentUser.get().getAuthResponse(true).id_token;
-                        user.id = profile.getId();
-                        user.name = profile.getName();
-                        user.email = profile.getEmail();
-                        user.photoUrl = profile.getImageUrl();
-                        user.firstName = profile.getGivenName();
-                        user.lastName = profile.getFamilyName();
-                        user.authToken = token;
-                        user.idToken = backendToken;
+                        // let profile = this.auth2.currentUser.get().getBasicProfile();
+                        // let token = this.auth2.currentUser.get().getAuthResponse(true).access_token;
+                        // let backendToken = this.auth2.currentUser.get().getAuthResponse(true).id_token;
+                        // user.id = profile.getId();
+                        // user.name = profile.getName();
+                        // user.email = profile.getEmail();
+                        // user.photoUrl = profile.getImageUrl();
+                        // user.firstName = profile.getGivenName();
+                        // user.lastName = profile.getFamilyName();
+                        // user.authToken = token;
+                        // user.idToken = backendToken;
                         resolve(user);
                     }
                     else {
