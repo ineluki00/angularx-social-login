@@ -32,5 +32,3 @@ Desktop.ini
 build/
 .tmp
 out-tsc/
-
-.npmrc

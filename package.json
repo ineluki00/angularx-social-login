@@ -7,7 +7,7 @@
     "url": "git://github.com:ineluki00/angularx-social-login.git"
   },
   "author": {
-    "name": "L.B.",
+    "name": "ineluki00",
     "email": "jaibatrik@gmail.com"
   },
   "keywords": [
@@ -89,8 +89,5 @@
   },
   "dependencies": {
     "typescript": "^3.5.3"
-  },
-  "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
   }
 }
