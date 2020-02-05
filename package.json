@@ -4,10 +4,10 @@
   "description": "Social login and authentication module for Angular 4 / 5. Supports authentication with Google and Facebook. Can be extended to other providers also.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/abacritt/angularx-social-login"
+    "url": "https://github.com/ineluki00/angularx-social-login"
   },
   "author": {
-    "name": "Jaibatrik Dutta",
+    "name": "L.B.",
     "email": "jaibatrik@gmail.com"
   },
   "keywords": [
@@ -22,7 +22,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abacritt/angularx-social-login/issues"
+    "url": "https://github.com/ineluki00/angularx-social-login/issues"
   },
   "main": "./bundles/angularx-social-login.umd.js",
   "module": "./angularx-social-login.es5.js",
@@ -89,5 +89,8 @@
   },
   "dependencies": {
     "typescript": "^3.5.3"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
   }
 }
