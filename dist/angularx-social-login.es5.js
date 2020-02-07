@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/auth.service.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var AuthServiceConfig = /** @class */ (function () {
@@ -205,6 +206,7 @@ var AuthService = /** @class */ (function () {
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/sociallogin.module.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var SocialLoginModule = /** @class */ (function () {
@@ -245,6 +247,7 @@ var SocialLoginModule = /** @class */ (function () {
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/entities/user.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 var SocialUser = /** @class */ (function () {
@@ -255,6 +258,7 @@ var SocialUser = /** @class */ (function () {
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/entities/base-login-provider.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /**

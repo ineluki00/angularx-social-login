@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/auth.service.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class AuthServiceConfig {
@@ -183,6 +184,7 @@ AuthService.ctorParameters = () => [
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/sociallogin.module.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class SocialLoginModule {
@@ -216,6 +218,7 @@ SocialLoginModule.decorators = [
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/entities/user.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class SocialUser {
@@ -223,6 +226,7 @@ class SocialUser {
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/entities/base-login-provider.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 /**
@@ -281,6 +285,7 @@ class BaseLoginProvider {
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/providers/google-login-provider.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class GoogleLoginProvider extends BaseLoginProvider {
@@ -476,6 +481,7 @@ GoogleLoginProvider.PROVIDER_ID = 'GOOGLE';
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/providers/facebook-login-provider.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 class FacebookLoginProvider extends BaseLoginProvider {

@@ -2,10 +2,11 @@
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('rxjs'), require('@angular/common')) :
     typeof define === 'function' && define.amd ? define(['exports', '@angular/core', 'rxjs', '@angular/common'], factory) :
     (global = global || self, factory(global.angularxSocialLogin = {}, global.ng.core, global.rxjs, global.ng.common));
-}(this, function (exports, core, rxjs, common) { 'use strict';
+}(this, (function (exports, core, rxjs, common) { 'use strict';
 
     /**
      * @fileoverview added by tsickle
+     * Generated from: lib/auth.service.ts
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
     var AuthServiceConfig = /** @class */ (function () {
@@ -207,6 +208,7 @@
 
     /**
      * @fileoverview added by tsickle
+     * Generated from: lib/sociallogin.module.ts
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
     var SocialLoginModule = /** @class */ (function () {
@@ -247,6 +249,7 @@
 
     /**
      * @fileoverview added by tsickle
+     * Generated from: lib/entities/user.ts
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
     var SocialUser = /** @class */ (function () {
@@ -257,6 +260,7 @@
 
     /**
      * @fileoverview added by tsickle
+     * Generated from: lib/entities/base-login-provider.ts
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
     /**
@@ -769,5 +773,5 @@
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
-}));
+})));
 //# sourceMappingURL=angularx-social-login.umd.js.map
