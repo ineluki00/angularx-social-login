@@ -37,8 +37,8 @@
   "scripts": {
     "clean": "rimraf out-tsc dist/*",
     "prebuild": "npm run clean",
-    "build-packagr": "ng-packagr -p package.json",
-    "build": "node build.js",
+    "build": "ng-packagr -p package.json",
+    "build-old": "node build.js",
     "build-demo": "tsc -p src/demo/",
     "build-demo:watch": "tsc -p src/demo/ -w",
     "serve": "lite-server -c=bs-config.json",
