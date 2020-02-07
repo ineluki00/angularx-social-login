@@ -32,7 +32,10 @@
   "ngPackage": {
     "lib": {
       "entryFile": "./src/index.ts"
-    }
+    },
+    "whitelistedNonPeerDependencies": [
+      "typescript"
+    ]
   },
   "scripts": {
     "clean": "rimraf out-tsc dist/*",
@@ -90,5 +93,8 @@
     "tsickle": "^0.37.1",
     "tslint": "^5.20.1",
     "zone.js": "^0.9.1"
+  },
+  "dependencies": {
+    "typescript": "^3.5.3"
   }
 }

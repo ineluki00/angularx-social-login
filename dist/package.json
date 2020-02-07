@@ -34,6 +34,9 @@
     "rxjs": "^6.5.3",
     "tslib": "^1.9.0"
   },
+  "dependencies": {
+    "typescript": "^3.5.3"
+  },
   "esm5": "esm5/angularx-social-login.js",
   "esm2015": "esm2015/angularx-social-login.js",
   "fesm5": "fesm5/angularx-social-login.js",
