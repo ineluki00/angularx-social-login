@@ -21,70 +21,24 @@
   "bugs": {
     "url": "https://github.com/ineluki00/angularx-social-login/issues"
   },
-  "main": "./bundles/angularx-social-login.umd.js",
-  "module": "./angularx-social-login.es5.js",
-  "es2015": "./angularx-social-login.js",
-  "typings": "./angularx-social-login.d.ts",
+  "main": "bundles/angularx-social-login.umd.js",
+  "module": "fesm5/angularx-social-login.js",
+  "es2015": "fesm2015/angularx-social-login.js",
+  "typings": "angularx-social-login.d.ts",
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"
   },
-  "scripts": {
-    "clean": "rimraf out-tsc dist/*",
-    "prebuild": "npm run clean",
-    "build": "node build.js",
-    "build-demo": "tsc -p src/demo/",
-    "build-demo:watch": "tsc -p src/demo/ -w",
-    "serve": "lite-server -c=bs-config.json",
-    "prestart": "npm run build-demo",
-    "start": "concurrently \"npm run build-demo:watch\" \"npm run serve\"",
-    "build-test": "tsc -p src/tsconfig.spec.json",
-    "build-test:watch": "tsc -p src/tsconfig.spec.json -w",
-    "pretest": "npm run build-test",
-    "test": "concurrently \"npm run build-test:watch\" \"karma start karma.conf.js\"",
-    "coverage": "karma start karma-coverage.conf.js --single-run",
-    "pretest:once": "npm run build-test",
-    "test:once": "karma start karma.conf.js --single-run",
-    "preintegration": "npm run build && cd integration && npm run clean && npm install",
-    "integration": "npm run integration:aot && npm run integration:jit",
-    "integration:jit": "cd integration && npm run e2e",
-    "integration:aot": "cd integration && npm run e2e:aot",
-    "lint": "tslint ./src/**/*.ts -t verbose",
-    "release": "standard-version",
-    "prepare": "npm run build"
-  },
   "peerDependencies": {
     "@angular/core": "^8.2.10",
-    "rxjs": "^6.5.3"
+    "rxjs": "^6.5.3",
+    "typescript": "^3.5.3",
+    "tslib": "^1.9.0"
   },
-  "devDependencies": {
-    "@angular/common": "^8.2.14",
-    "@angular/compiler": "^8.2.14",
-    "@angular/compiler-cli": "^8.2.14",
-    "@angular/core": "^8.2.14",
-    "@angular/platform-browser": "^8.2.14",
-    "@angular/platform-browser-dynamic": "^8.2.14",
-    "@types/jasmine": "3.4.4",
-    "@types/node": "^12.12.26",
-    "camelcase": "^5.3.1",
-    "concurrently": "5.0.0",
-    "core-js": "^3.6.4",
-    "glob": "^7.1.6",
-    "lite-server": "^2.5.4",
-    "rimraf": "^3.0.1",
-    "rollup": "^1.31.0",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-sourcemaps": "^0.4.2",
-    "rollup-plugin-uglify": "^6.0.4",
-    "rxjs": "^6.5.4",
-    "standard-version": "^7.1.0",
-    "systemjs": "^6.2.1",
-    "tsickle": "^0.37.1",
-    "tslint": "^5.20.1",
-    "zone.js": "^0.9.1"
-  },
-  "dependencies": {
-    "typescript": "^3.5.3"
-  }
+  "esm5": "esm5/angularx-social-login.js",
+  "esm2015": "esm2015/angularx-social-login.js",
+  "fesm5": "fesm5/angularx-social-login.js",
+  "fesm2015": "fesm2015/angularx-social-login.js",
+  "metadata": "angularx-social-login.metadata.json",
+  "sideEffects": false
 }
