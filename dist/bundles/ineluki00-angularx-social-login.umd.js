@@ -1,7 +1,7 @@
 (function (global, factory) {
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('@angular/core'), require('rxjs'), require('@angular/common')) :
-    typeof define === 'function' && define.amd ? define('angularx-social-login', ['exports', '@angular/core', 'rxjs', '@angular/common'], factory) :
-    (global = global || self, factory(global['angularx-social-login'] = {}, global.ng.core, global.rxjs, global.ng.common));
+    typeof define === 'function' && define.amd ? define('@ineluki00/angularx-social-login', ['exports', '@angular/core', 'rxjs', '@angular/common'], factory) :
+    (global = global || self, factory((global.ineluki00 = global.ineluki00 || {}, global.ineluki00['angularx-social-login'] = {}), global.ng.core, global.rxjs, global.ng.common));
 }(this, (function (exports, core, rxjs, common) { 'use strict';
 
     /*! *****************************************************************************
@@ -614,4 +614,4 @@
     Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=angularx-social-login.umd.js.map
+//# sourceMappingURL=ineluki00-angularx-social-login.umd.js.map

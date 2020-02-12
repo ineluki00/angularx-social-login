@@ -410,4 +410,4 @@ var FacebookLoginProvider = /** @class */ (function (_super) {
  */
 
 export { AuthService, AuthServiceConfig, FacebookLoginProvider, GoogleLoginProvider, SocialLoginModule, SocialUser, BaseLoginProvider as ɵa };
-//# sourceMappingURL=angularx-social-login.js.map
+//# sourceMappingURL=ineluki00-angularx-social-login.js.map

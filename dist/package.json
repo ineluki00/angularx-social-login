@@ -1,5 +1,5 @@
 {
-  "name": "angularx-social-login",
+  "name": "@ineluki00/angularx-social-login",
   "version": "2.2.3",
   "description": "Social login and authentication module for Angular 4 / 5. Supports authentication with Google and Facebook. Can be extended to other providers also.",
   "repository": "github:ineluki00/angularx-social-login.git",
@@ -21,10 +21,10 @@
   "bugs": {
     "url": "https://github.com/ineluki00/angularx-social-login/issues"
   },
-  "main": "bundles/angularx-social-login.umd.js",
-  "module": "fesm5/angularx-social-login.js",
-  "es2015": "fesm2015/angularx-social-login.js",
-  "typings": "angularx-social-login.d.ts",
+  "main": "bundles/ineluki00-angularx-social-login.umd.js",
+  "module": "fesm5/ineluki00-angularx-social-login.js",
+  "es2015": "fesm2015/ineluki00-angularx-social-login.js",
+  "typings": "ineluki00-angularx-social-login.d.ts",
   "engines": {
     "node": ">= 6.9.0",
     "npm": ">= 3.0.0"
@@ -37,10 +37,13 @@
   "dependencies": {
     "typescript": "^3.5.3"
   },
-  "esm5": "esm5/angularx-social-login.js",
-  "esm2015": "esm2015/angularx-social-login.js",
-  "fesm5": "fesm5/angularx-social-login.js",
-  "fesm2015": "fesm2015/angularx-social-login.js",
-  "metadata": "angularx-social-login.metadata.json",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/ineluki00"
+  },
+  "esm5": "esm5/ineluki00-angularx-social-login.js",
+  "esm2015": "esm2015/ineluki00-angularx-social-login.js",
+  "fesm5": "fesm5/ineluki00-angularx-social-login.js",
+  "fesm2015": "fesm2015/ineluki00-angularx-social-login.js",
+  "metadata": "ineluki00-angularx-social-login.metadata.json",
   "sideEffects": false
 }
